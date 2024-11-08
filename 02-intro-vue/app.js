@@ -32,6 +32,7 @@ const { createApp, ref, computed } = Vue;
 
 const app = createApp({
   setup() {
+    // ref crea una variable reactiva
     const showAuthor = ref(false);
     const quotes = ref(originalQuotes);
     const newMessage = ref("");
